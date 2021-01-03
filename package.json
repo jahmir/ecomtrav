@@ -1,0 +1,28 @@
+{
+  "name": "ecomtrav",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jahmir/ecomtrav.git"
+  },
+  "author": "altair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jahmir/ecomtrav/issues"
+  },
+  "homepage": "https://github.com/jahmir/ecomtrav#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}

@@ -1,0 +1,3 @@
+Server
+npm init - entry point is server.js
+npm i express
