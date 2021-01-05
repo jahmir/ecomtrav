@@ -2,3 +2,4 @@ Server
 npm init - entry point is server.js
 npm i express
 npm i redux react-redux redux-thunk redux-devtools-extension
+app.use(express.json()) - allows accept jason data in the request body
